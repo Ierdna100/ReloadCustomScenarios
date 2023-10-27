@@ -1,0 +1,19 @@
+{
+  "name": "ReloadCustomScenarios",
+  "description": "Reloads custom scenarios every time you open the editor menu. Chasaroonie asked for it and I've been putting it off for like 26 years.",
+  "dll_file": "ReloadCustomScenarios.dll",
+  "last_edit": 638339527552759413,
+  "pub_id": "",
+  "json_version": "",
+  "version": "",
+  "tagline": "",
+  "repository": "",
+  "is_public": false,
+  "unlisted": false,
+  "preview_image": "",
+  "web_preview_image": "",
+  "dependencies": null,
+  "mod_dependencies": null,
+  "menu_mod": false,
+  "ContentType": 3
+}
