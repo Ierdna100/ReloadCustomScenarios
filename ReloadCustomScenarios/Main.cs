@@ -6,6 +6,8 @@ namespace ReloadCustomScenarios
     {
         public override void ModLoaded()
         {
+            Debug.Log("WHAT THE FUCK IS A KILOMETER!!!");
+
             VTOLAPI.SceneLoaded += SceneLoaded;
             base.ModLoaded();
         }
@@ -16,7 +18,7 @@ namespace ReloadCustomScenarios
             {
                 case VTOLScenes.VTEditMenu:
                     Debug.Log("[ReloadCustomScenariosMod] Scene \"VTEditMenu\" loaded! Reloading scenarios!");
-                    VTResources.LoadCustomScenarios();
+                    VTResources.LoadCustomScenarios(false);
                     break;
             }
         }
