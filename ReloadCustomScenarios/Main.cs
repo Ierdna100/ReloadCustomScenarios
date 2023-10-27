@@ -17,7 +17,6 @@ namespace ReloadCustomScenarios
                 case VTOLScenes.VTEditMenu:
                     Debug.Log("[ReloadCustomScenariosMod] Scene \"VTEditMenu\" loaded! Reloading scenarios!");
                     VTResources.LoadCustomScenarios();
-                    Debug.Log("[ReloadCustomScenariosMod] Reloaded scenarios");
                     break;
             }
         }
