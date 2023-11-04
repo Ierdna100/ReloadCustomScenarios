@@ -6,8 +6,6 @@ namespace ReloadCustomScenarios
     {
         public override void ModLoaded()
         {
-            Debug.Log("WHAT THE FUCK IS A KILOMETER!!!");
-
             VTOLAPI.SceneLoaded += SceneLoaded;
             base.ModLoaded();
         }
